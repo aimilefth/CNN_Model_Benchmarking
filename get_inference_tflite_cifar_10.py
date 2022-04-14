@@ -5,18 +5,12 @@ MODEL_NAME_TFLITE =
 NUM_THREADS = None
 
 #Load the Dataset
-x_test = np.loadtxt("../ImageNet_val_100.csv", dtype=int, delimiter=",")
-y_test = np.loadtxt("../ImageNet_val_100_labels.csv", dtype=int, delimiter=",")
-x_test = x_test.reshape(-1,224,224,3)
+x_test = np.loadtxt("../cifar_test_1000.csv", dtype=int, delimiter=",")
+y_test = np.loadtxt("../cifar_test_1000_labels.csv", dtype=int, delimiter=",")
+x_test = x_test.reshape(-1,32,32,3)
 #Do the preprocessing that is necessary per model. 
-if "ResNet50" in MODEL_NAME_TFLITE:
-	x_test = tf.keras.applications.resnet50.preprocess_input(x_test)
-elif "NASNet_large" in MODEL_NAME_TFLITE:
-	x_test = tf.image.resize(x_test, (331, 331))
-	x_test = tf.keras.applications.nasnet.preprocess_input(x_test)
-elif "MobileNetV3" in MODEL_NAME_TFLITE:
-	x_test = tf.cast(x=x_test, dtype=tf.float32)/127.5 - 1.0
-
+x_test = tf.image.rgb_to_grayscale(x_test)
+x_test = tf.cast(x=x_test, dtype=tf.float32)/255.0
 # Load the TFLite model and allocate tensors.
 interpreter = tf.lite.Interpreter(model_path="./" + MODEL_NAME_TFLITE, num_threads=NUM_THREADS)
 interpreter.allocate_tensors()
@@ -34,7 +28,7 @@ from timeit import default_timer as timer
 total_time=0.0
 acc = 0
 print(x_test.shape)
-iterations = x_test.shape[0] #should be 100
+iterations = x_test.shape[0] #should be 1000
 for i in range(iterations):
     start = timer()
     interpreter.set_tensor(input_details[0]['index'], x_test[np.newaxis, i,:])
