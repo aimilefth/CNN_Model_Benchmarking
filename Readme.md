@@ -78,3 +78,15 @@ All the averages exclude the 1st call in the calculation
 TensorRT with tensorflow/tensorflow:latest-gpu
 
 Rest are with nvcr.io/nvidia/tensorflow:22.03-tf2-py3
+
+<!---
+GPU Time (ms) Tesla P100 PCIE-16gb NVIDIA-SMI 470.82.01 CUDA Version: 11.4 Kaggle
+
+MODE |LeNet5| MobileNetV3_small | MobileNetV3_large | ResNet50 | NASNet_large |
+---  | ---: | ---: | ---: | ---: | ---: |
+model call for loop              |    2.131|   58.753|   65.638|   48.983|   304.902|
+model.predict() with batch_size=1|    1.105|   17.302|   21.858|   21.209|    87.984|
+model call for loop w/jit compile|    0.577|    4.381|    5.736|    7.247|    41.253|
+1st call of model.predict()      | 4793.978| 5836.142| 5726.507| 5956.792|  5775.364|
+1st call of model call w/jit     |  684.943| 1567.411| 3390.069| 2503.253| 15953.979|
+-->
