@@ -14,7 +14,7 @@ if "ResNet50" in MODEL_NAME_TFLITE:
 elif "NASNet_large" in MODEL_NAME_TFLITE:
 	x_test = tf.image.resize(x_test, (331, 331))
 	x_test = tf.keras.applications.nasnet.preprocess_input(x_test)
-elif "MobileNetV3" in MODEL_NAME_TFLITE:
+elif "MobileNet" in MODEL_NAME_TFLITE:
 	x_test = tf.cast(x=x_test, dtype=tf.float32)/127.5 - 1.0
 
 # Load the TFLite model and allocate tensors.
