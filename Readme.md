@@ -98,6 +98,6 @@ model call for loop w/jit compile|    0.577|    4.381|    5.736|    7.247|    41
 FPGA time (ms) using Vitis AI 2.0 on ZCU104 with a 2 * B4096 @ 300MHz DPU configuration
 
 LeNet5| MobileNetV3_small | MobileNetV3_large|MobileNetV1| ResNet50 | NASNet_large |
- ---:    | ---:    | ---:     | ---:     |  ---:     |
+ ---:    | ---:    | ---:     | ---:     |  ---:     |  ---: |
 0.200    | -   | -   | 2.676| 11.442  | -  |
 
