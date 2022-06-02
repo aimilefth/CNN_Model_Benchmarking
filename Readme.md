@@ -152,6 +152,6 @@ Jetson Nano nx02 (ms) using TensorRT, FP32
 
 MODE |LeNet5| MobileNetV1 | ResNet50 | InceptionV4  | ResNet152 |
 ---  | ---: | ---: | ---: | ---: | ---: |
-TensorRT            |0.381 |12.604 |2.448  |1.328  |1.927  |
-1st call of TensorRT|16.433|145.526|260.503|170.576|884.686|
+TensorRT            | | | | | |
+1st call of TensorRT| | | | | |
 
