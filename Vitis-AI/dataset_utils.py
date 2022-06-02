@@ -51,7 +51,7 @@ def normalize_image(image, label):
 
 #Works for whole dataset
 def input_fn_test_images(directory, batchsize):
-	AUTOTUNE = tf.data.AUTOTUNE
+	AUTOTUNE = tf.data.experimental.AUTOTUNE
 	ds_val = tf.keras.utils.image_dataset_from_directory(
     		directory = directory,
     		labels = "inferred",
@@ -66,7 +66,7 @@ def input_fn_test_images(directory, batchsize):
 
 #Works for csv dataset 
 def input_fn_test_csv(zip_directory, images_csv, labels_csv, batchsize):
-	AUTOTUNE = tf.data.AUTOTUNE
+	AUTOTUNE = tf.data.experimental.AUTOTUNE
 	zip_ref = zipfile.ZipFile(zip_directory, 'r')
 	dataset_dir = "./temp"
 	os.makedirs(dataset_dir, exist_ok = True) 

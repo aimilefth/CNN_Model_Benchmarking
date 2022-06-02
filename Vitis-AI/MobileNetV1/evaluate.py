@@ -29,12 +29,13 @@ import argparse
 os.environ['TF_CPP_MIN_LOG_LEVEL']='3'
 
 import tensorflow as tf
+from tensorflow import keras
 import numpy as np
 
 from dataset_utils import  input_fn_test_images, input_fn_test_csv
 
 GLOBALS = '-----------------------------------------'
-MODEL_NAME = "ResNet50_ImageNet_70_90_7_76GF"
+MODEL_NAME = "MobileNetV1_ImageNet_70_90_7_76GF"
 VERBOSE = 1
 ZIPFILE_NAME = 'ImageNet_val_100.zip'    # The zip file name inside files folder 
 IMAGES_CSV = "ImageNet_val_100.csv" # The contained files in the zip
@@ -48,7 +49,32 @@ def evaluate(data_dir,batchsize,chkpt_dir,use_csv):
     Define the model
     '''
     print("TF version:", tf.__version__)
-    model = tf.keras.models.load_model("./"+MODEL_NAME)
+    #model = tf.keras.models.load_model("./"+MODEL_NAME)
+    if("ResNet50" in MODEL_NAME):
+       model = tf.keras.applications.resnet50.ResNet50(
+          include_top=True,
+          weights='imagenet',
+          input_tensor=None,
+          input_shape=None,
+          pooling=None,
+          classes=1000,
+          classifier_activation=None
+       )
+    elif("MobileNetV1" in MODEL_NAME):
+       model = tf.keras.applications.MobileNet(
+          include_top=True,
+          weights='imagenet',
+          input_tensor=None,
+          input_shape=None,
+          pooling=None,
+          classes=1000,
+          classifier_activation=None
+       )
+    model.compile(
+       loss=keras.losses.SparseCategoricalCrossentropy(from_logits=True),
+       optimizer=keras.optimizers.Adam(),
+       metrics=['accuracy', tf.keras.metrics.SparseTopKCategoricalAccuracy(k=5)]
+    )
     print('\n'+DIVIDER)
     print(' Model Summary')
     print(DIVIDER)

@@ -129,7 +129,7 @@ def runDPU(id,start,dpu,img):
     write_index = start
     print("write_index %d" %(start))
     ids=[]
-    ids_max = 100
+    ids_max = n_of_images+1
     outputData = []
     for i in range(ids_max):
         outputData.append([np.empty(output_ndim, dtype=np.int8, order="C")])
