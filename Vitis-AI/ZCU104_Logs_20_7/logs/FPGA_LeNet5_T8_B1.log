@@ -1,0 +1,80 @@
+INFO:root:Command line options:
+INFO:root: --image_dir  : images
+INFO:root: --csv_zip_dir: cifar_test_1000.zip
+INFO:root: --use_csv    : 1
+INFO:root: --threads    : 8
+INFO:root: --model      : ./LeNet5/target_ZCU104/customcnn.xmodel
+INFO:root: --batch      : 1
+INFO:root: --model_name : LeNet5
+INFO:root: --log_file   : None
+INFO:root:1
+INFO:root:Deserialized
+INFO:root:Got Subgraphs
+INFO:root:Creating 8 Runners
+INFO:root:Created 8 Runners
+INFO:root:Pre-processing 1000 images...
+INFO:root:Starting 8 threads,
+INFO:root:input_ndim: (1, 32, 32, 1)
+INFO:root:output_ndim: (1, 10)
+INFO:root:input_ndim: (1, 32, 32, 1)
+INFO:root:batchSize 1
+INFO:root:input_ndim: (1, 32, 32, 1)
+INFO:root:output_ndim: (1, 10)
+INFO:root:batchSize 1
+INFO:root:output_ndim 1
+INFO:root:n_of_images 125
+INFO:root:output_ndim: (1, 10)
+INFO:root:batchSize 1
+INFO:root:output_ndim 1
+INFO:root:n_of_images 125
+INFO:root:write_index 125
+INFO:root:write_index 0
+INFO:root:input_ndim: (1, 32, 32, 1)
+INFO:root:input_ndim: (1, 32, 32, 1)
+INFO:root:output_ndim 1
+INFO:root:n_of_images 125
+INFO:root:write_index 250
+INFO:root:output_ndim: (1, 10)
+INFO:root:input_ndim: (1, 32, 32, 1)
+INFO:root:output_ndim: (1, 10)
+INFO:root:input_ndim: (1, 32, 32, 1)
+INFO:root:input_ndim: (1, 32, 32, 1)
+INFO:root:batchSize 1
+INFO:root:batchSize 1
+INFO:root:output_ndim 1
+INFO:root:output_ndim: (1, 10)
+INFO:root:output_ndim: (1, 10)
+INFO:root:output_ndim 1
+INFO:root:n_of_images 125
+INFO:root:write_index 375
+INFO:root:batchSize 1
+INFO:root:batchSize 1
+INFO:root:n_of_images 125
+INFO:root:output_ndim: (1, 10)
+INFO:root:output_ndim 1
+INFO:root:output_ndim 1
+INFO:root:write_index 500
+INFO:root:batchSize 1
+INFO:root:n_of_images 125
+INFO:root:n_of_images 125
+INFO:root:output_ndim 1
+INFO:root:write_index 625
+INFO:root:write_index 750
+INFO:root:n_of_images 125
+INFO:root:write_index 875
+INFO:root:id: 1 time: 0.128
+INFO:root:id: 2 time: 0.129
+INFO:root:id: 3 time: 0.126
+INFO:root:id: 0 time: 0.152
+INFO:root:id: 6 time: 0.121
+INFO:root:id: 4 time: 0.122
+INFO:root:id: 5 time: 0.122
+INFO:root:id: 7 time: 0.119
+INFO:root:timetotal 0.195 , time_total_v2 0.152
+INFO:root:------------------------------------
+INFO:root:Throughput=6574.62 fps, total frames = 1000, time=0.152 seconds
+INFO:root:Post-processing 1000 images..
+INFO:root:Correct:630, Wrong:370, Accuracy:0.6300
+INFO:root:------------------------------------
+INFO:root:Writing to results.txt
+INFO:root:Execution Time: 17.301

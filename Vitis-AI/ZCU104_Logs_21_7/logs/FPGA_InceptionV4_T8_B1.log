@@ -1,0 +1,160 @@
+INFO:root:Command line options:
+INFO:root: --image_dir  : images
+INFO:root: --csv_zip_dir: ImageNet_val_100.zip
+INFO:root: --use_csv    : 1
+INFO:root: --threads    : 8
+INFO:root: --model      : ./InceptionV4/target_ZCU104/customcnn.xmodel
+INFO:root: --batch      : 1
+INFO:root: --model_name : InceptionV4
+INFO:root: --log_file   : None
+INFO:root:1
+INFO:root:Deserialized
+INFO:root:Got Subgraphs
+INFO:root:Creating 8 Runners
+INFO:root:Created 8 Runners
+INFO:root:Pre-processing 100 images...
+INFO:root:Starting 8 threads,
+INFO:root:input_ndim: (1, 299, 299, 3)
+INFO:root:output_ndim: (1, 1000)
+INFO:root:input_ndim: (1, 299, 299, 3)
+INFO:root:batchSize 1
+INFO:root:input_ndim: (1, 299, 299, 3)
+INFO:root:output_ndim: (1, 1000)
+INFO:root:input_ndim: (1, 299, 299, 3)
+INFO:root:output_ndim 1
+INFO:root:n_of_images 12
+INFO:root:output_ndim: (1, 1000)
+INFO:root:batchSize 1
+INFO:root:output_ndim 1
+INFO:root:output_ndim: (1, 1000)
+INFO:root:write_index 0
+INFO:root:input_ndim: (1, 299, 299, 3)
+INFO:root:batchSize 1
+INFO:root:input_ndim: (1, 299, 299, 3)
+INFO:root:input_ndim: (1, 299, 299, 3)
+INFO:root:n_of_images 12
+INFO:root:write_index 12
+INFO:root:batchSize 1
+INFO:root:output_ndim: (1, 1000)
+INFO:root:output_ndim 1
+INFO:root:output_ndim: (1, 1000)
+INFO:root:output_ndim: (1, 1000)
+INFO:root:output_ndim 1
+INFO:root:batchSize 1
+INFO:root:input_ndim: (1, 299, 299, 3)
+INFO:root:n_of_images 12
+INFO:root:batchSize 1
+INFO:root:n_of_images 12
+INFO:root:write_index 36
+INFO:root:output_ndim 1
+INFO:root:output_ndim: (1, 1000)
+INFO:root:batchSize 1
+INFO:root:write_index 24
+INFO:root:n_of_images 12
+INFO:root:output_ndim 1
+INFO:root:n_of_images 12
+INFO:root:output_ndim 1
+INFO:root:write_index 48
+INFO:root:write_index 60
+INFO:root:batchSize 1
+INFO:root:n_of_images 12
+INFO:root:output_ndim 1
+INFO:root:write_index 72
+INFO:root:n_of_images 16
+INFO:root:write_index 84
+INFO:root:id: 0 time: 1.395
+INFO:root:id: 4 time: 1.451
+INFO:root:id: 2 time: 1.553
+INFO:root:id: 6 time: 1.582
+INFO:root:id: 1 time: 1.626
+INFO:root:id: 3 time: 1.656
+INFO:root:id: 5 time: 1.686
+INFO:root:id: 7 time: 1.857
+INFO:root:timetotal 1.883 , time_total_v2 1.857
+INFO:root:------------------------------------
+INFO:root:Throughput=53.85 fps, total frames = 100, time=1.857 seconds
+INFO:root:Post-processing 100 images..
+INFO:root:Correct:0, Wrong:100, Accuracy:0.0000
+INFO:root:------------------------------------
+INFO:root:Writing to results.txt
+INFO:root:Execution Time: 90.739
+INFO:root:Command line options:
+INFO:root: --image_dir  : images
+INFO:root: --csv_zip_dir: ImageNet_val_100.zip
+INFO:root: --use_csv    : 1
+INFO:root: --threads    : 8
+INFO:root: --model      : ./InceptionV4/target_ZCU104/customcnn.xmodel
+INFO:root: --batch      : 1
+INFO:root: --model_name : InceptionV4
+INFO:root: --log_file   : None
+INFO:root:1
+INFO:root:Deserialized
+INFO:root:Got Subgraphs
+INFO:root:Creating 8 Runners
+INFO:root:Created 8 Runners
+INFO:root:Pre-processing 100 images...
+INFO:root:Starting 8 threads,
+INFO:root:input_ndim: (1, 299, 299, 3)
+INFO:root:output_ndim: (1, 1000)
+INFO:root:input_ndim: (1, 299, 299, 3)
+INFO:root:batchSize 1
+INFO:root:input_ndim: (1, 299, 299, 3)
+INFO:root:output_ndim: (1, 1000)
+INFO:root:batchSize 1
+INFO:root:output_ndim 1
+INFO:root:n_of_images 12
+INFO:root:output_ndim: (1, 1000)
+INFO:root:batchSize 1
+INFO:root:output_ndim 1
+INFO:root:n_of_images 12
+INFO:root:write_index 12
+INFO:root:write_index 0
+INFO:root:input_ndim: (1, 299, 299, 3)
+INFO:root:input_ndim: (1, 299, 299, 3)
+INFO:root:output_ndim 1
+INFO:root:n_of_images 12
+INFO:root:input_ndim: (1, 299, 299, 3)
+INFO:root:output_ndim: (1, 1000)
+INFO:root:input_ndim: (1, 299, 299, 3)
+INFO:root:output_ndim: (1, 1000)
+INFO:root:write_index 24
+INFO:root:input_ndim: (1, 299, 299, 3)
+INFO:root:output_ndim: (1, 1000)
+INFO:root:batchSize 1
+INFO:root:output_ndim: (1, 1000)
+INFO:root:batchSize 1
+INFO:root:output_ndim: (1, 1000)
+INFO:root:batchSize 1
+INFO:root:output_ndim 1
+INFO:root:batchSize 1
+INFO:root:output_ndim 1
+INFO:root:batchSize 1
+INFO:root:output_ndim 1
+INFO:root:n_of_images 12
+INFO:root:output_ndim 1
+INFO:root:n_of_images 16
+INFO:root:output_ndim 1
+INFO:root:n_of_images 12
+INFO:root:write_index 36
+INFO:root:n_of_images 12
+INFO:root:write_index 84
+INFO:root:n_of_images 12
+INFO:root:write_index 48
+INFO:root:write_index 72
+INFO:root:write_index 60
+INFO:root:id: 0 time: 1.487
+INFO:root:id: 2 time: 1.517
+INFO:root:id: 1 time: 1.522
+INFO:root:id: 4 time: 1.541
+INFO:root:id: 6 time: 1.574
+INFO:root:id: 5 time: 1.683
+INFO:root:id: 3 time: 1.722
+INFO:root:id: 7 time: 1.860
+INFO:root:timetotal 1.882 , time_total_v2 1.860
+INFO:root:------------------------------------
+INFO:root:Throughput=53.13 fps, total frames = 100, time=1.882 seconds
+INFO:root:Post-processing 100 images..
+INFO:root:Correct:0, Wrong:100, Accuracy:0.0000
+INFO:root:------------------------------------
+INFO:root:Writing to results.txt
+INFO:root:Execution Time: 90.439

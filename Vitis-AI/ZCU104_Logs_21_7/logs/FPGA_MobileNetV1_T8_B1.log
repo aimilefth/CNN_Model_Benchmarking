@@ -1,0 +1,240 @@
+INFO:root:Command line options:
+INFO:root: --image_dir  : images
+INFO:root: --csv_zip_dir: ImageNet_val_100.zip
+INFO:root: --use_csv    : 1
+INFO:root: --threads    : 8
+INFO:root: --model      : ./MobileNetV1/target_ZCU104/customcnn.xmodel
+INFO:root: --batch      : 1
+INFO:root: --model_name : MobileNetV1
+INFO:root: --log_file   : None
+INFO:root:1
+INFO:root:Deserialized
+INFO:root:Got Subgraphs
+INFO:root:Creating 8 Runners
+INFO:root:Created 8 Runners
+INFO:root:Pre-processing 100 images...
+INFO:root:Starting 8 threads,
+INFO:root:input_ndim: (1, 224, 224, 3)
+INFO:root:output_ndim: (1, 1000)
+INFO:root:input_ndim: (1, 224, 224, 3)
+INFO:root:batchSize 1
+INFO:root:input_ndim: (1, 224, 224, 3)
+INFO:root:output_ndim: (1, 1000)
+INFO:root:batchSize 1
+INFO:root:output_ndim 1
+INFO:root:output_ndim: (1, 1000)
+INFO:root:input_ndim: (1, 224, 224, 3)
+INFO:root:output_ndim 1
+INFO:root:n_of_images 12
+INFO:root:n_of_images 12
+INFO:root:write_index 0
+INFO:root:batchSize 1
+INFO:root:input_ndim: (1, 224, 224, 3)
+INFO:root:input_ndim: (1, 224, 224, 3)
+INFO:root:output_ndim: (1, 1000)
+INFO:root:write_index 12
+INFO:root:input_ndim: (1, 224, 224, 3)
+INFO:root:output_ndim 1
+INFO:root:n_of_images 12
+INFO:root:output_ndim: (1, 1000)
+INFO:root:output_ndim: (1, 1000)
+INFO:root:batchSize 1
+INFO:root:output_ndim: (1, 1000)
+INFO:root:write_index 24
+INFO:root:input_ndim: (1, 224, 224, 3)
+INFO:root:batchSize 1
+INFO:root:batchSize 1
+INFO:root:output_ndim 1
+INFO:root:batchSize 1
+INFO:root:output_ndim: (1, 1000)
+INFO:root:output_ndim 1
+INFO:root:n_of_images 16
+INFO:root:output_ndim 1
+INFO:root:output_ndim 1
+INFO:root:batchSize 1
+INFO:root:n_of_images 12
+INFO:root:write_index 84
+INFO:root:n_of_images 12
+INFO:root:n_of_images 12
+INFO:root:output_ndim 1
+INFO:root:write_index 72
+INFO:root:write_index 48
+INFO:root:write_index 36
+INFO:root:n_of_images 12
+INFO:root:write_index 60
+INFO:root:id: 1 time: 0.085
+INFO:root:id: 0 time: 0.102
+INFO:root:id: 2 time: 0.108
+INFO:root:id: 5 time: 0.107
+INFO:root:id: 6 time: 0.111
+INFO:root:id: 4 time: 0.113
+INFO:root:id: 3 time: 0.117
+INFO:root:id: 7 time: 0.131
+INFO:root:timetotal 0.153 , time_total_v2 0.131
+INFO:root:------------------------------------
+INFO:root:Throughput=764.88 fps, total frames = 100, time=0.131 seconds
+INFO:root:Post-processing 100 images..
+INFO:root:Correct:0, Wrong:100, Accuracy:0.0000
+INFO:root:------------------------------------
+INFO:root:Writing to results.txt
+INFO:root:Execution Time: 83.140
+INFO:root:Command line options:
+INFO:root: --image_dir  : images
+INFO:root: --csv_zip_dir: ImageNet_val_100.zip
+INFO:root: --use_csv    : 1
+INFO:root: --threads    : 8
+INFO:root: --model      : ./MobileNetV1/target_ZCU104/customcnn.xmodel
+INFO:root: --batch      : 1
+INFO:root: --model_name : MobileNetV1
+INFO:root: --log_file   : None
+INFO:root:1
+INFO:root:Deserialized
+INFO:root:Got Subgraphs
+INFO:root:Creating 8 Runners
+INFO:root:Created 8 Runners
+INFO:root:Pre-processing 100 images...
+INFO:root:Starting 8 threads,
+INFO:root:input_ndim: (1, 224, 224, 3)
+INFO:root:output_ndim: (1, 1000)
+INFO:root:input_ndim: (1, 224, 224, 3)
+INFO:root:batchSize 1
+INFO:root:input_ndim: (1, 224, 224, 3)
+INFO:root:output_ndim: (1, 1000)
+INFO:root:batchSize 1
+INFO:root:output_ndim 1
+INFO:root:output_ndim: (1, 1000)
+INFO:root:batchSize 1
+INFO:root:input_ndim: (1, 224, 224, 3)
+INFO:root:input_ndim: (1, 224, 224, 3)
+INFO:root:output_ndim 1
+INFO:root:n_of_images 12
+INFO:root:n_of_images 12
+INFO:root:output_ndim 1
+INFO:root:n_of_images 12
+INFO:root:output_ndim: (1, 1000)
+INFO:root:input_ndim: (1, 224, 224, 3)
+INFO:root:output_ndim: (1, 1000)
+INFO:root:write_index 12
+INFO:root:input_ndim: (1, 224, 224, 3)
+INFO:root:write_index 0
+INFO:root:write_index 24
+INFO:root:input_ndim: (1, 224, 224, 3)
+INFO:root:batchSize 1
+INFO:root:output_ndim: (1, 1000)
+INFO:root:batchSize 1
+INFO:root:output_ndim: (1, 1000)
+INFO:root:output_ndim: (1, 1000)
+INFO:root:output_ndim 1
+INFO:root:batchSize 1
+INFO:root:output_ndim 1
+INFO:root:batchSize 1
+INFO:root:batchSize 1
+INFO:root:n_of_images 12
+INFO:root:output_ndim 1
+INFO:root:n_of_images 12
+INFO:root:n_of_images 16
+INFO:root:output_ndim 1
+INFO:root:write_index 36
+INFO:root:write_index 60
+INFO:root:output_ndim 1
+INFO:root:write_index 84
+INFO:root:n_of_images 12
+INFO:root:n_of_images 12
+INFO:root:write_index 48
+INFO:root:write_index 72
+INFO:root:id: 1 time: 0.107
+INFO:root:id: 0 time: 0.109
+INFO:root:id: 2 time: 0.112
+INFO:root:id: 4 time: 0.111
+INFO:root:id: 3 time: 0.119
+INFO:root:id: 6 time: 0.116
+INFO:root:id: 5 time: 0.122
+INFO:root:id: 7 time: 0.134
+INFO:root:timetotal 0.157 , time_total_v2 0.134
+INFO:root:------------------------------------
+INFO:root:Throughput=747.06 fps, total frames = 100, time=0.134 seconds
+INFO:root:Post-processing 100 images..
+INFO:root:Correct:2, Wrong:98, Accuracy:0.0200
+INFO:root:------------------------------------
+INFO:root:Writing to results.txt
+INFO:root:Execution Time: 83.648
+INFO:root:Command line options:
+INFO:root: --image_dir  : images
+INFO:root: --csv_zip_dir: ImageNet_val_100.zip
+INFO:root: --use_csv    : 1
+INFO:root: --threads    : 8
+INFO:root: --model      : ./MobileNetV1/target_ZCU104/customcnn.xmodel
+INFO:root: --batch      : 1
+INFO:root: --model_name : MobileNetV1
+INFO:root: --log_file   : None
+INFO:root:1
+INFO:root:Deserialized
+INFO:root:Got Subgraphs
+INFO:root:Creating 8 Runners
+INFO:root:Created 8 Runners
+INFO:root:Pre-processing 100 images...
+INFO:root:Starting 8 threads,
+INFO:root:input_ndim: (1, 224, 224, 3)
+INFO:root:output_ndim: (1, 1000)
+INFO:root:input_ndim: (1, 224, 224, 3)
+INFO:root:batchSize 1
+INFO:root:input_ndim: (1, 224, 224, 3)
+INFO:root:output_ndim: (1, 1000)
+INFO:root:batchSize 1
+INFO:root:output_ndim 1
+INFO:root:n_of_images 12
+INFO:root:output_ndim: (1, 1000)
+INFO:root:batchSize 1
+INFO:root:output_ndim 1
+INFO:root:n_of_images 12
+INFO:root:write_index 12
+INFO:root:write_index 0
+INFO:root:input_ndim: (1, 224, 224, 3)
+INFO:root:input_ndim: (1, 224, 224, 3)
+INFO:root:output_ndim 1
+INFO:root:n_of_images 12
+INFO:root:output_ndim: (1, 1000)
+INFO:root:batchSize 1
+INFO:root:output_ndim: (1, 1000)
+INFO:root:input_ndim: (1, 224, 224, 3)
+INFO:root:write_index 24
+INFO:root:input_ndim: (1, 224, 224, 3)
+INFO:root:output_ndim 1
+INFO:root:n_of_images 12
+INFO:root:batchSize 1
+INFO:root:output_ndim: (1, 1000)
+INFO:root:output_ndim: (1, 1000)
+INFO:root:write_index 36
+INFO:root:input_ndim: (1, 224, 224, 3)
+INFO:root:output_ndim 1
+INFO:root:batchSize 1
+INFO:root:batchSize 1
+INFO:root:output_ndim: (1, 1000)
+INFO:root:batchSize 1
+INFO:root:output_ndim 1
+INFO:root:output_ndim 1
+INFO:root:n_of_images 16
+INFO:root:n_of_images 12
+INFO:root:output_ndim 1
+INFO:root:n_of_images 12
+INFO:root:write_index 84
+INFO:root:write_index 48
+INFO:root:n_of_images 12
+INFO:root:write_index 60
+INFO:root:write_index 72
+INFO:root:id: 1 time: 0.091
+INFO:root:id: 0 time: 0.107
+INFO:root:id: 2 time: 0.110
+INFO:root:id: 5 time: 0.109
+INFO:root:id: 4 time: 0.112
+INFO:root:id: 6 time: 0.112
+INFO:root:id: 3 time: 0.124
+INFO:root:id: 7 time: 0.128
+INFO:root:timetotal 0.152 , time_total_v2 0.128
+INFO:root:------------------------------------
+INFO:root:Throughput=659.81 fps, total frames = 100, time=0.152 seconds
+INFO:root:Post-processing 100 images..
+INFO:root:Correct:2, Wrong:98, Accuracy:0.0200
+INFO:root:------------------------------------
+INFO:root:Writing to results.txt
+INFO:root:Execution Time: 83.890

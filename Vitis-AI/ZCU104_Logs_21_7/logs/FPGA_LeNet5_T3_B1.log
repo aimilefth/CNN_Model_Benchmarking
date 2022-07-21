@@ -1,0 +1,90 @@
+INFO:root:Command line options:
+INFO:root: --image_dir  : images
+INFO:root: --csv_zip_dir: cifar_test_1000.zip
+INFO:root: --use_csv    : 1
+INFO:root: --threads    : 3
+INFO:root: --model      : ./LeNet5/target_ZCU104/customcnn.xmodel
+INFO:root: --batch      : 1
+INFO:root: --model_name : LeNet5
+INFO:root: --log_file   : None
+INFO:root:1
+INFO:root:Deserialized
+INFO:root:Got Subgraphs
+INFO:root:Creating 3 Runners
+INFO:root:Created 3 Runners
+INFO:root:Pre-processing 1000 images...
+INFO:root:Starting 3 threads,
+INFO:root:input_ndim: (1, 32, 32, 1)
+INFO:root:output_ndim: (1, 10)
+INFO:root:input_ndim: (1, 32, 32, 1)
+INFO:root:output_ndim: (1, 10)
+INFO:root:batchSize 1
+INFO:root:output_ndim 1
+INFO:root:input_ndim: (1, 32, 32, 1)
+INFO:root:n_of_images 333
+INFO:root:write_index 333
+INFO:root:output_ndim: (1, 10)
+INFO:root:batchSize 1
+INFO:root:batchSize 1
+INFO:root:output_ndim 1
+INFO:root:output_ndim 1
+INFO:root:n_of_images 333
+INFO:root:n_of_images 334
+INFO:root:write_index 0
+INFO:root:write_index 666
+INFO:root:id: 2 time: 0.129
+INFO:root:id: 1 time: 0.137
+INFO:root:id: 0 time: 0.140
+INFO:root:timetotal 0.182 , time_total_v2 0.140
+INFO:root:------------------------------------
+INFO:root:Throughput=7120.76 fps, total frames = 1000, time=0.140 seconds
+INFO:root:Post-processing 1000 images..
+INFO:root:Correct:630, Wrong:370, Accuracy:0.6300
+INFO:root:------------------------------------
+INFO:root:Writing to results.txt
+INFO:root:Execution Time: 17.291
+INFO:root:Command line options:
+INFO:root: --image_dir  : images
+INFO:root: --csv_zip_dir: cifar_test_1000.zip
+INFO:root: --use_csv    : 1
+INFO:root: --threads    : 3
+INFO:root: --model      : ./LeNet5/target_ZCU104/customcnn.xmodel
+INFO:root: --batch      : 1
+INFO:root: --model_name : LeNet5
+INFO:root: --log_file   : None
+INFO:root:1
+INFO:root:Deserialized
+INFO:root:Got Subgraphs
+INFO:root:Creating 3 Runners
+INFO:root:Created 3 Runners
+INFO:root:Pre-processing 1000 images...
+INFO:root:Starting 3 threads,
+INFO:root:input_ndim: (1, 32, 32, 1)
+INFO:root:output_ndim: (1, 10)
+INFO:root:input_ndim: (1, 32, 32, 1)
+INFO:root:batchSize 1
+INFO:root:input_ndim: (1, 32, 32, 1)
+INFO:root:output_ndim: (1, 10)
+INFO:root:output_ndim 1
+INFO:root:output_ndim: (1, 10)
+INFO:root:batchSize 1
+INFO:root:n_of_images 333
+INFO:root:batchSize 1
+INFO:root:output_ndim 1
+INFO:root:write_index 0
+INFO:root:output_ndim 1
+INFO:root:n_of_images 333
+INFO:root:n_of_images 334
+INFO:root:write_index 333
+INFO:root:write_index 666
+INFO:root:id: 0 time: 0.127
+INFO:root:id: 2 time: 0.124
+INFO:root:id: 1 time: 0.126
+INFO:root:timetotal 0.160 , time_total_v2 0.127
+INFO:root:------------------------------------
+INFO:root:Throughput=6248.31 fps, total frames = 1000, time=0.160 seconds
+INFO:root:Post-processing 1000 images..
+INFO:root:Correct:630, Wrong:370, Accuracy:0.6300
+INFO:root:------------------------------------
+INFO:root:Writing to results.txt
+INFO:root:Execution Time: 17.356

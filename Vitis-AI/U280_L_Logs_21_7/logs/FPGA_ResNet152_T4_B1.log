@@ -1,0 +1,104 @@
+INFO:root:Command line options:
+INFO:root: --image_dir  : images
+INFO:root: --csv_zip_dir: ImageNet_val_100.zip
+INFO:root: --use_csv    : 1
+INFO:root: --threads    : 4
+INFO:root: --model      : ./ResNet152/target_U280_L/customcnn.xmodel
+INFO:root: --batch      : 1
+INFO:root: --model_name : ResNet152
+INFO:root: --log_file   : None
+INFO:root:1
+INFO:root:Deserialized
+INFO:root:Got Subgraphs
+INFO:root:Creating 4 Runners
+INFO:root:Created 4 Runners
+INFO:root:Pre-processing 100 images...
+INFO:root:Starting 4 threads,
+INFO:root:input_ndim: (1, 299, 299, 3)
+INFO:root:output_ndim: (1, 1, 1, 1000)
+INFO:root:batchSize 1
+INFO:root:output_ndim 1
+INFO:root:n_of_images 25
+INFO:root:write_index 0
+INFO:root:input_ndim: (1, 299, 299, 3)
+INFO:root:output_ndim: (1, 1, 1, 1000)
+INFO:root:input_ndim: (1, 299, 299, 3)
+INFO:root:batchSize 1
+INFO:root:input_ndim: (1, 299, 299, 3)
+INFO:root:output_ndim: (1, 1, 1, 1000)
+INFO:root:output_ndim 1
+INFO:root:output_ndim: (1, 1, 1, 1000)
+INFO:root:batchSize 1
+INFO:root:n_of_images 25
+INFO:root:batchSize 1
+INFO:root:output_ndim 1
+INFO:root:write_index 25
+INFO:root:output_ndim 1
+INFO:root:n_of_images 25
+INFO:root:n_of_images 25
+INFO:root:write_index 50
+INFO:root:write_index 75
+INFO:root:id: 0 time: 3.499
+INFO:root:id: 1 time: 4.104
+INFO:root:id: 2 time: 4.056
+INFO:root:id: 3 time: 4.100
+INFO:root:timetotal 4.857 , time_total_v2 4.104
+INFO:root:------------------------------------
+INFO:root:Throughput=24.37 fps, total frames = 100, time=4.104 seconds
+INFO:root:Post-processing 100 images..
+INFO:root:Correct:0, Wrong:100, Accuracy:0.0000
+INFO:root:------------------------------------
+INFO:root:Writing to results.txt
+INFO:root:Execution Time: 24.438
+INFO:root:Command line options:
+INFO:root: --image_dir  : images
+INFO:root: --csv_zip_dir: ImageNet_val_100.zip
+INFO:root: --use_csv    : 1
+INFO:root: --threads    : 4
+INFO:root: --model      : ./ResNet152/target_U280_L/customcnn.xmodel
+INFO:root: --batch      : 1
+INFO:root: --model_name : ResNet152
+INFO:root: --log_file   : None
+INFO:root:1
+INFO:root:Deserialized
+INFO:root:Got Subgraphs
+INFO:root:Creating 4 Runners
+INFO:root:Created 4 Runners
+INFO:root:Pre-processing 100 images...
+INFO:root:Starting 4 threads,
+INFO:root:input_ndim: (1, 299, 299, 3)
+INFO:root:output_ndim: (1, 1, 1, 1000)
+INFO:root:input_ndim: (1, 299, 299, 3)
+INFO:root:batchSize 1
+INFO:root:input_ndim: (1, 299, 299, 3)
+INFO:root:output_ndim: (1, 1, 1, 1000)
+INFO:root:input_ndim: (1, 299, 299, 3)
+INFO:root:output_ndim 1
+INFO:root:output_ndim: (1, 1, 1, 1000)
+INFO:root:batchSize 1
+INFO:root:output_ndim: (1, 1, 1, 1000)
+INFO:root:n_of_images 25
+INFO:root:batchSize 1
+INFO:root:output_ndim 1
+INFO:root:batchSize 1
+INFO:root:write_index 0
+INFO:root:output_ndim 1
+INFO:root:n_of_images 25
+INFO:root:output_ndim 1
+INFO:root:n_of_images 25
+INFO:root:write_index 25
+INFO:root:n_of_images 25
+INFO:root:write_index 50
+INFO:root:write_index 75
+INFO:root:id: 0 time: 4.339
+INFO:root:id: 3 time: 4.473
+INFO:root:id: 2 time: 4.428
+INFO:root:id: 1 time: 4.573
+INFO:root:timetotal 4.827 , time_total_v2 4.573
+INFO:root:------------------------------------
+INFO:root:Throughput=20.72 fps, total frames = 100, time=4.827 seconds
+INFO:root:Post-processing 100 images..
+INFO:root:Correct:0, Wrong:100, Accuracy:0.0000
+INFO:root:------------------------------------
+INFO:root:Writing to results.txt
+INFO:root:Execution Time: 23.743

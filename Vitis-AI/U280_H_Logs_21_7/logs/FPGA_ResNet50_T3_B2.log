@@ -1,0 +1,58 @@
+INFO:root:Command line options:
+INFO:root: --image_dir  : images
+INFO:root: --csv_zip_dir: ImageNet_val_100.zip
+INFO:root: --use_csv    : 1
+INFO:root: --threads    : 3
+INFO:root: --model      : ./ResNet50/target_U280_H/customcnn.xmodel
+INFO:root: --batch      : 2
+INFO:root: --model_name : ResNet50
+INFO:root: --log_file   : None
+INFO:root:1
+INFO:root:Deserialized
+INFO:root:Got Subgraphs
+INFO:root:Creating 3 Runners
+INFO:root:Command line options:
+INFO:root: --image_dir  : images
+INFO:root: --csv_zip_dir: ImageNet_val_100.zip
+INFO:root: --use_csv    : 1
+INFO:root: --threads    : 3
+INFO:root: --model      : ./ResNet50/target_U280_H/customcnn.xmodel
+INFO:root: --batch      : 2
+INFO:root: --model_name : ResNet50
+INFO:root: --log_file   : None
+INFO:root:1
+INFO:root:Deserialized
+INFO:root:Got Subgraphs
+INFO:root:Creating 3 Runners
+INFO:root:Created 3 Runners
+INFO:root:Pre-processing 100 images...
+INFO:root:Starting 3 threads,
+INFO:root:input_ndim: (3, 224, 224, 3)
+INFO:root:output_ndim: (3, 1, 1, 1000)
+INFO:root:input_ndim: (3, 224, 224, 3)
+INFO:root:batchSize 2
+INFO:root:input_ndim: (3, 224, 224, 3)
+INFO:root:output_ndim: (3, 1, 1, 1000)
+INFO:root:output_ndim 3
+INFO:root:output_ndim: (3, 1, 1, 1000)
+INFO:root:batchSize 2
+INFO:root:n_of_images 33
+INFO:root:batchSize 2
+INFO:root:output_ndim 3
+INFO:root:write_index 0
+INFO:root:output_ndim 3
+INFO:root:n_of_images 33
+INFO:root:n_of_images 34
+INFO:root:write_index 33
+INFO:root:write_index 66
+INFO:root:id: 0 time: 0.463
+INFO:root:id: 1 time: 0.462
+INFO:root:id: 2 time: 0.512
+INFO:root:timetotal 0.533 , time_total_v2 0.512
+INFO:root:------------------------------------
+INFO:root:Throughput=187.63 fps, total frames = 100, time=0.533 seconds
+INFO:root:Post-processing 100 images..
+INFO:root:Correct:73, Wrong:27, Accuracy:0.7300
+INFO:root:------------------------------------
+INFO:root:Writing to results.txt
+INFO:root:Execution Time: 18.731

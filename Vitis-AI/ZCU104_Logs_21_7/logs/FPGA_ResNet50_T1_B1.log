@@ -1,0 +1,76 @@
+INFO:root:Command line options:
+INFO:root: --image_dir  : images
+INFO:root: --csv_zip_dir: ImageNet_val_100.zip
+INFO:root: --use_csv    : 1
+INFO:root: --threads    : 1
+INFO:root: --model      : ./ResNet50/target_ZCU104/customcnn.xmodel
+INFO:root: --batch      : 1
+INFO:root: --model_name : ResNet50
+INFO:root: --log_file   : None
+INFO:root:1
+INFO:root:Deserialized
+INFO:root:Got Subgraphs
+INFO:root:Creating 1 Runners
+INFO:root:Created 1 Runners
+INFO:root:Command line options:
+INFO:root: --image_dir  : images
+INFO:root: --csv_zip_dir: ImageNet_val_100.zip
+INFO:root: --use_csv    : 1
+INFO:root: --threads    : 1
+INFO:root: --model      : ./ResNet50/target_ZCU104/customcnn.xmodel
+INFO:root: --batch      : 1
+INFO:root: --model_name : ResNet50
+INFO:root: --log_file   : None
+INFO:root:1
+INFO:root:Deserialized
+INFO:root:Got Subgraphs
+INFO:root:Creating 1 Runners
+INFO:root:Created 1 Runners
+INFO:root:Pre-processing 100 images...
+INFO:root:Starting 1 threads,
+INFO:root:input_ndim: (1, 224, 224, 3)
+INFO:root:output_ndim: (1, 1, 1, 1000)
+INFO:root:batchSize 1
+INFO:root:output_ndim 1
+INFO:root:n_of_images 100
+INFO:root:write_index 0
+INFO:root:id: 0 time: 1.048
+INFO:root:timetotal 1.059 , time_total_v2 1.048
+INFO:root:------------------------------------
+INFO:root:Throughput=95.39 fps, total frames = 100, time=1.048 seconds
+INFO:root:Post-processing 100 images..
+INFO:root:Correct:73, Wrong:27, Accuracy:0.7300
+INFO:root:------------------------------------
+INFO:root:Writing to results.txt
+INFO:root:Execution Time: 84.385
+INFO:root:Command line options:
+INFO:root: --image_dir  : images
+INFO:root: --csv_zip_dir: ImageNet_val_100.zip
+INFO:root: --use_csv    : 1
+INFO:root: --threads    : 1
+INFO:root: --model      : ./ResNet50/target_ZCU104/customcnn.xmodel
+INFO:root: --batch      : 1
+INFO:root: --model_name : ResNet50
+INFO:root: --log_file   : None
+INFO:root:1
+INFO:root:Deserialized
+INFO:root:Got Subgraphs
+INFO:root:Creating 1 Runners
+INFO:root:Created 1 Runners
+INFO:root:Pre-processing 100 images...
+INFO:root:Starting 1 threads,
+INFO:root:input_ndim: (1, 224, 224, 3)
+INFO:root:output_ndim: (1, 1, 1, 1000)
+INFO:root:batchSize 1
+INFO:root:output_ndim 1
+INFO:root:n_of_images 100
+INFO:root:write_index 0
+INFO:root:id: 0 time: 1.048
+INFO:root:timetotal 1.059 , time_total_v2 1.048
+INFO:root:------------------------------------
+INFO:root:Throughput=94.46 fps, total frames = 100, time=1.059 seconds
+INFO:root:Post-processing 100 images..
+INFO:root:Correct:73, Wrong:27, Accuracy:0.7300
+INFO:root:------------------------------------
+INFO:root:Writing to results.txt
+INFO:root:Execution Time: 84.391
